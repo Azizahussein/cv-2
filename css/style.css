@@ -1,0 +1,392 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    font-size: 14px; /* Reduced font size for a more compressed look */
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    font-family: "Anton SC", sans-serif;
+    font-size: 25px; /* Reduced font size */
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 5px; /* Reduced padding */
+}
+
+
+/* Splash Image */
+.splash img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Reduced width */
+    height: 200px; /* Reduced height */
+    object-fit: cover; /* Zooms in and covers the space, possibly cropping the image */
+    margin: 10px; /* Reduced margin */
+    box-shadow: 5px 5px 30px 1px rgba(0, 0, 0, 0.6); /* Reduced shadow */
+}
+
+/* Profile Image Styling */
+img {
+    width: 250px; /* Reduced width */
+    height: 150px; /* Reduced height */
+    object-fit: contain;
+}
+
+/* Profile Image Hover Effect */
+img:hover {
+    transform: scale(0.9) translateY(15px); /* Slight zoom out effect */
+    box-shadow: 0 0 15px 5px purple;
+}
+
+/* Header Layout */
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #444;
+    padding: 8px; /* Reduced padding */
+}
+
+/* Splash Section */
+.splash {
+    background-color: #333;
+    border: 5px solid #444;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 5px 10px 50px 2px rgba(0, 0, 0, 0.6);
+    
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right Section Layout */
+.right {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 3%; /* Reduced margin */
+}
+
+/* About Me Section */
+.aboutme {
+    text-align: center;
+    font-size: 16px; /* Reduced font size */
+    color: #bbb;
+}
+
+/* Education Section */
+.education {
+    background-color: #444;
+    text-align: center;
+    border-radius: 25px; /* Reduced border-radius */
+    font-size: 16px; /* Reduced font size */
+    color: #ddd;
+    padding: 8px; /* Reduced padding */
+}
+
+/* List Styling */
+ul {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+}
+
+li::marker {
+    color: #bbb;
+}
+
+
+/* Address Styling */
+.address {
+    font-size: 22px; /* Reduced font size */
+    color: #e0e0e0;
+}
+
+/* Heading Styles */
+h1 {
+    font-family: "Anton SC", sans-serif;
+    color: #e0e0e0;
+    font-size: 26px; /* Reduced font size */
+}
+
+h2, h3 {
+    font-family: "Arsenal SC", sans-serif;
+    color: #e0e0e0;
+}
+
+hr {
+    border: 3px solid #444; /* Reduced border size */
+    border-radius: 20px;
+}
+
+.hr2 {
+    border: 3px dotted #444; /* Reduced border size */
+}
+
+/* Links Styling */
+a:link {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple
+}
+
+a:visited {
+    color: violet
+}
+
+/* Multi-color Hover Effect for Project Images */
+.proj img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.5);
+}
+
+/* Project Title */
+.projtitle {
+    text-align: center;
+    font-size: 22px; /* Reduced font size */
+    color: #ccc;
+}
+
+/* Project Section */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 3%; /* Reduced margin-bottom */
+    margin-left: 50px;
+   
+   
+}
+
+.containerbody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures three equal-width columns */
+    margin-bottom: 3%; /* Reduced margin-bottom */
+    width: 100%; /* Use full width */
+    height: 400px;
+    justify-items: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+ 
+}
+
+.proj {
+    width: 320px; /* Reduced width */
+    height: 400px; /* Reduced height */
+    padding: 5%;
+    margin: 8px; /* Reduced margin */
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 0, 0.6); /* Reduced shadow */
+    text-align: center;
+    border-radius: 25px; /* Reduced border-radius */
+    border: 8px solid #444; /* Reduced border size */
+    background-color: #555;
+    font-size: 14px; /* Reduced font size */
+    position: relative;
+    transition: 0.5s;
+    color: #ddd;
+}
+
+/* Hover Effect for Projects */
+.proj:hover {
+    background: linear-gradient(45deg, #D8BFD8, #BF40BF, #673147);
+    transform: translateY(-8px); /* Reduced translateY */
+    box-shadow: 0 0 8px 2px purple;
+}
+
+/* Contact Section Layout */
+.contactcontainer {
+    display: grid;
+}
+
+/* Body Layout */
+.bodyx {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 3%; /* Reduced margin-bottom */
+}
+
+.bodypart {
+    width: 320px; /* Reduced width */
+    height: 400px; /* Reduced height */
+    padding: 8px; /* Reduced padding */
+    margin: 8px; /* Reduced margin */
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 0, 0.6); /* Reduced shadow */
+    text-align: center;
+    border-radius: 25px; /* Reduced border-radius */
+    border: 8px solid #444; /* Reduced border size */
+    background-color: #555;
+    font-size: 14px; /* Reduced font size */
+    position: relative;
+    transition: 0.5s;
+    color: #ddd;
+    margin-left: 40px; /* Reduced margin-left */
+    height: 250px; /* Reduced height */
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    font-family: "Anton SC", sans-serif;
+    justify-content: center;
+    font-size: 30px; /* Reduced font size */
+    background-color: #333;
+    padding: 5px; /* Reduced padding */
+}
+
+/* Form and Input Styling */
+.one-col {
+    display: flex;
+    justify-content: center;
+    padding: 4px; /* Reduced padding */
+}
+
+input {
+    background-color: #67434F;
+    color: #C3CCAF;
+    border-radius: 5px;
+    padding: 6px; /* Reduced padding */
+    width: 65%; /* Reduced width */
+}
+
+textarea {
+    background-color: #67434F;
+    color: #C3CCAF;
+    border-radius: 5px;
+    padding: 8px; /* Reduced padding */
+    width: 65%; /* Reduced width */
+}
+
+/* Contact Hover Effect */
+.contactcontainer:hover {
+
+
+    background-color: #6A4C9C;
+    transform: scale(1.05);
+}
+
+/* Awards, Skills, and Leadership Hover Effect */
+.awards, .skills, .leadership {
+    transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.bodypart:hover {
+    background: linear-gradient(45deg, #D8BFD8, #BF40BF, #673147);
+    transform: translateY(-8px); /* Reduced translateY */
+    box-shadow: 0 0 8px 2px purple;
+}
+
+.splash:hover {
+    box-shadow: 0 0 8px 2px purple;
+}
+
+/* Responsive Layout */
+@media(max-width: 1023px) {
+    .projects, .container {
+        grid-template-columns: 1fr;
+    }
+
+    .head {
+        grid-template-columns: 1fr;
+    }
+
+    .bodypart {
+        width: 75%; /* Reduced width */
+    }
+
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    font-family: "Anton SC", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 5px;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2% 10%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.6);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #ddd;
+}
+
+input, textarea {
+    background-color:lightgray ;
+    color: #C3CCAF;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #444;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color:rgb(42, 3, 46) ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5a3a8d;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    font-family: "Anton SC", sans-serif;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #333;
+    padding: 5px;
+}
+
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: purple;
+}
