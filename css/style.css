@@ -196,7 +196,7 @@ footer {
 
 
 @media(max-width: 1023px) {
-    .projects, .container {
+    .projects {
         grid-template-columns: 1fr;
     }
 
@@ -204,8 +204,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .bodypart {
-        width: 75%; /* Reduced width */
+    .body {
+        width:auto; 
     }
 
     .projects {
