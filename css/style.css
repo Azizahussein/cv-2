@@ -195,20 +195,17 @@ footer {
 
 
 
-@media(max-width: 1023px) {
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
+@media(max-width: 1030px) {
+    
     .head {
-        grid-template-columns: 1fr;
+        grid-template-columns:auto;
     }
 
     .body {
         width:auto; 
     }
 
-    .projects {
+    .projectgroup {
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -356,6 +353,9 @@ h2{
     font-size: 1.8rem;
     color: #444;
     text-transform: uppercase;
+}
+h3{
+    font-size: 2em;
 }
 
 .skills-icons {
