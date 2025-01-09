@@ -122,7 +122,7 @@ a:visited {
 .projtitle {
     text-align: center;
     font-size: 22px; 
-    color: #ccc;
+    color:  #444;
 }
 
 .projects {
@@ -136,6 +136,7 @@ a:visited {
 .projectgroup{
     background-color: #f9f9f9;
     border-top: 3px dotted black;
+    padding-top: 50px;
 
 }
 
@@ -335,18 +336,17 @@ html {
 }
 
 #skills {
+   
     padding: 50px 20px;
     text-align: center;
     background-color: #f9f9f9;
     border-top: 3px dotted black;
+    color: purple;
+}
+h2{
+    font-size: 3em;
 }
 
-#skills, #experience, #projects h2 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #333;
-}
 
 .skill-category {
     margin-bottom: 50px;
@@ -430,13 +430,12 @@ h4 {
     padding: 20px;
 }
 
-#experience h3 {
-    font-size: 2rem;
+#experience h2 {
+    font-size: 3rem;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #333;
     text-align: center;
-    padding-top: 20px;
-    margin-top: 0;
+    padding: 50px 20px;
 }
